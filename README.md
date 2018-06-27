@@ -1,6 +1,6 @@
 # iota-snapshot-analyser
 
-This is a simple project that analyze iota holding among all the addresses using public snapshot file. It will generate bar chart for IOTA tokens range vs Nummber of addresses for different public snapshots.
+This is a simple project that analyzes iota holding among all the addresses using public snapshot file. It will generate bar chart for IOTA tokens range vs Number of addresses for different public snapshots.
 
 
 ![ota-distribution](https://github.com/devender-yadav/iota-snapshot-analyser/blob/master/src/test/resources/iota-distribution.png)
