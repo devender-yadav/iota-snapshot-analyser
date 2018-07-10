@@ -41,6 +41,8 @@ public class Constants {
 	public static final String SNAPSHOT_JAN_18 = "snapshot-jan-18";
 
 	public static final String SNAPSHOT_APR_18 = "snapshot-apr-18";
+	
+	public static final String SNAPSHOT_JUL_18 = "snapshot-jul-18";
 
 	public static final String AUG_17 = "Aug 17";
 
@@ -51,4 +53,7 @@ public class Constants {
 	public static final String JAN_18 = "Jan 18";
 
 	public static final String APR_18 = "Apr 18";
+	
+	public static final String JUL_18 = "Jul 18";
 }
+

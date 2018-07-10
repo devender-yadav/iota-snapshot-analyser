@@ -31,6 +31,10 @@ public class ChartDataGenerator {
 
 		addValueToDataset(dataset,
 				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_APR_18), APR_18), APR_18);
+		
+		addValueToDataset(dataset,
+				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_JUL_18), JUL_18), JUL_18);
+		
 		return dataset;
 	}
 
@@ -46,3 +50,4 @@ public class ChartDataGenerator {
 	}
 
 }
+
