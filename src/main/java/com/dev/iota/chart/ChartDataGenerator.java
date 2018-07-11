@@ -18,22 +18,22 @@ public class ChartDataGenerator {
 		final DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 
 		addValueToDataset(dataset,
-				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_AUG_17), AUG_17), AUG_17);
+				processor.populateAddressAnalyser(reader.getIotaPerAddressList(SNAPSHOT_AUG_17), AUG_17), AUG_17);
 
 		addValueToDataset(dataset,
-				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_SEP_17), SEP_17), SEP_17);
+				processor.populateAddressAnalyser(reader.getIotaPerAddressList(SNAPSHOT_SEP_17), SEP_17), SEP_17);
 
 		addValueToDataset(dataset,
-				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_OCT_17), OCT_17), OCT_17);
+				processor.populateAddressAnalyser(reader.getIotaPerAddressList(SNAPSHOT_OCT_17), OCT_17), OCT_17);
 
 		addValueToDataset(dataset,
-				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_JAN_18), JAN_18), JAN_18);
+				processor.populateAddressAnalyser(reader.getIotaPerAddressList(SNAPSHOT_JAN_18), JAN_18), JAN_18);
 
 		addValueToDataset(dataset,
-				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_APR_18), APR_18), APR_18);
+				processor.populateAddressAnalyser(reader.getIotaPerAddressList(SNAPSHOT_APR_18), APR_18), APR_18);
 		
 		addValueToDataset(dataset,
-				processor.populateAddressAnalyser(reader.getParallelFileStream(SNAPSHOT_JUL_18), JUL_18), JUL_18);
+				processor.populateAddressAnalyser(reader.getIotaPerAddressList(SNAPSHOT_JUL_18), JUL_18), JUL_18);
 		
 		return dataset;
 	}

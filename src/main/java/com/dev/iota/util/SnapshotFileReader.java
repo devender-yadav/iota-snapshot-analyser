@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class SnapshotFileReader {
 
-	public List<Long> getParallelFileStream(String fileName) {
+	public List<Long> getIotaPerAddressList(String fileName) {
 		InputStream inputStream = getClass().getClassLoader().getResourceAsStream(fileName);
 
 		BufferedReader bufferReader = new BufferedReader(new InputStreamReader(inputStream));
