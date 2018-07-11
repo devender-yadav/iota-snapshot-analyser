@@ -16,7 +16,7 @@ To generate chart, go to [BarChartGenerator.java](https://github.com/devender-ya
 ## Data
 
 
- Snapshot| Total Addresses| More than 1Ti  | 100 Gi - 1Ti | 10 Gi - 100 Gi | 100 Mi - 1 Gi | 100 Mi - 1 Gi | 100 i - 100 Mi|
+ Snapshot| Total Addresses| More than 1Ti  | 100 Gi - 1Ti | 10 Gi - 100 Gi | 100 Mi - 1 Gi | 100 Mi - 1 Gi | 1 i - 100 Mi|
 | -------|:-------------:| ---------------:|------------:|---------------:|---------------:|-------------:|---------------:|
 |  Aug 17| 22244         |299              |606          |1587            | 4316           | 5407         | 10029          |
 |  Sep 17| 51885         |234              |602          |2278            | 9818           | 17625        | 21328          |
