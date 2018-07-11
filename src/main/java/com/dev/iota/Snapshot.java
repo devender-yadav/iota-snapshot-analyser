@@ -103,7 +103,7 @@ public class Snapshot {
 		builder.append(Constants.NEWLINE);
 		builder.append("100 Mi - 1 Gi " + hundredMiToOneGi);
 		builder.append(Constants.NEWLINE);
-		builder.append("100 i - 100 Mi " + oneiToHundredMi);
+		builder.append("1 i - 100 Mi " + oneiToHundredMi);
 		builder.append(Constants.NEWLINE);
 		return builder.toString();
 	}
